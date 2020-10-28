@@ -16,6 +16,12 @@
     // Create a post object with an id and title that is frozen
     // Test whether you can reassign each of the variables
     // Log out each of the variables to the page
+    const username = "gvholley";
+    const post = {
+      id: 1,
+      title: "First post"
+    }
+    Object.freeze(post);
 
 
 
@@ -69,7 +75,7 @@
 
     // Practice 5 - DOM Creation
     // Map over the postsArray
-    // User document.createElement and document.createTextNode 
+    // User document.createElement and document.createTextNode
     //  to create an h2 with a link and the title of the post
     // Append each of the h2s to the postsContainer
     const postsContainer = document.getElementById("root");
